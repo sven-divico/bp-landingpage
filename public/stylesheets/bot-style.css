@@ -1,6 +1,6 @@
 /* This CSS rule sets the default font size of the entire document */
 html {
-    font-size: 40px;
+    font-size: 60px;
   }
   
   /* These CSS rules sets the text direction of the paragraph (RTL or LTR) */
@@ -18,7 +18,7 @@ html {
   /* Changes the color of the new message indicator */
   .bpw-new-messages-indicator {
     background-color: #4b4b4b;
-    color: #ffffff;
+    color: #5fe97d;
   }
   
   /* Styling for the chat header container */
