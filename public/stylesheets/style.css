@@ -1,0 +1,35 @@
+body {
+  padding: 50px;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blanchedalmond;
+    padding: 20px;
+    font-size: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) { */
+@media screen and (max-device-width: 767px) {
+  body {
+    background-color: rgb(207, 237, 138);
+    padding: 30px;
+    font-size: 50px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    padding: 50px;
+    font-size: 14px;
+  }
+}

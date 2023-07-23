@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  p This is the demo page for the express-pug-static module.
+
+  script(src='https://cdn.botpress.cloud/webchat/v0/inject.js')
+    
+  script.
+      window.botpressWebChat.init({
+          "stylesheet": "/stylesheets/bot-style.css",
+          "composerPlaceholder": "Chat with pAIge",
+          "botConversationDescription": "This is an ISP Support Bot",
+          "botId": "67680031-910f-4e74-977f-295337c24a2b",
+          "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+          "messagingUrl": "https://messaging.botpress.cloud",
+          "clientId": "67680031-910f-4e74-977f-295337c24a2b",
+          "botName": "pAIge",
+          "emailAddress": "sven@divico.gmbh",
+          "website": "https://divico.gmbh",
+          "useSessionStorage": true,
+          "showPoweredBy": true
+      });
